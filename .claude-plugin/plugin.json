@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "show-then-build",
+  "description": "Shows a change before building it: a preview page to open, then a yes, then the build, checked against the preview.",
+  "author": {
+    "name": "Jake Shelley"
+  },
+  "homepage": "https://github.com/jiffi-co/show-then-build",
+  "repository": "https://github.com/jiffi-co/show-then-build",
+  "license": "MIT",
+  "keywords": [
+    "jiffi",
+    "preview",
+    "prototype",
+    "change",
+    "design"
+  ]
+}

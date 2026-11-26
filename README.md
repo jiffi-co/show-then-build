@@ -5,7 +5,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0f063c"></a>
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/works%20with-Claude%20Code-599cff">
-  <a href="https://github.com/jake-jiffi/build-then-break"><img alt="Pairs with build-then-break" src="https://img.shields.io/badge/pairs%20with-build--then--break-d5e6ff"></a>
+  <a href="https://github.com/jiffi-co/build-then-break"><img alt="Pairs with build-then-break" src="https://img.shields.io/badge/pairs%20with-build--then--break-d5e6ff"></a>
   <a href="https://clarityclub.jiffi.co"><img alt="From Jiffi Clarity Club" src="https://img.shields.io/badge/from-Jiffi%20Clarity%20Club-fff58a"></a>
 </p>
 
@@ -37,32 +37,26 @@ One page, saved in your project, that opens in any browser:
 
 ## Install it in a minute
 
-Open Claude Code and paste this in. It installs this skill and its partner, [build-then-break](https://github.com/jake-jiffi/build-then-break), together.
+It installs from the builder-kit-lean marketplace, together with its partner, [build-then-break](https://github.com/jiffi-co/build-then-break). In a terminal:
+
+```bash
+claude plugin marketplace add jiffi-co/builder-kit-lean
+claude plugin install show-then-build@builder-kit-lean
+claude plugin install build-then-break@builder-kit-lean
+```
+
+To have Claude Code use them every time, add this section to `~/.claude/CLAUDE.md`:
 
 ```text
-Please install two Claude Code skills from these public repos:
-https://github.com/jake-jiffi/show-then-build
-https://github.com/jake-jiffi/build-then-break
+## Show, then build, then break
+Before adding, changing, redesigning or fixing something that already exists, use the show-then-build skill and follow it. Show me a preview and wait for my yes before touching the real files. Tiny edits skip the preview, as the skill describes.
 
-Install both at the user level so they work in every project, and set them up so you always use them:
-
-1. Before you install anything, read each skill's files and tell me in plain English what each one does and whether anything in them runs commands or touches my files.
-
-2. Download each repo to a temporary folder (git clone, or the zip from GitHub if git isn't available). Copy skills/show-then-build to ~/.claude/skills/show-then-build/ and skills/build-then-break to ~/.claude/skills/build-then-break/, so each SKILL.md sits directly in its folder with its other folders beside it. On Windows, ~ is my user folder. If either skill is already there, show me what would change and ask before replacing it. Delete the temporary folders when you're done.
-
-3. Add this section to ~/.claude/CLAUDE.md. If the file doesn't exist, create it. If it does exist, add the section at the end and don't change anything already in it.
-
-   ## Show, then build, then break
-   Before adding, changing, redesigning or fixing something that already exists, use the show-then-build skill and follow it. Show me a preview and wait for my yes before touching the real files. Tiny edits skip the preview, as the skill describes.
-
-   For any task that writes, edits, refactors, debugs or reviews code, and before calling any plan or analysis done, use the build-then-break skill and follow it. Match effort to the stakes as the skill describes.
-
-4. Show me the final folder structure and the exact section you added to CLAUDE.md, then tell me to start a fresh session so it all loads.
+For any task that writes, edits, refactors, debugs or reviews code, and before calling any plan or analysis done, use the build-then-break skill and follow it. Match effort to the stakes as the skill describes.
 ```
 
 Start a fresh session afterwards. That's it.
 
-Want only this skill, or prefer to do it by hand? See [INSTALL.md](INSTALL.md).
+Prefer to install it by hand, or from a zip? See [INSTALL.md](INSTALL.md).
 
 ## How the two skills fit
 

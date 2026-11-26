@@ -6,12 +6,12 @@ After any of them, start a fresh Claude Code session so it loads.
 
 ## 1. Ask Claude Code to install both skills (recommended)
 
-show-then-build hands its build step to [build-then-break](https://github.com/jake-jiffi/build-then-break), so they are better together. Paste this into Claude Code:
+show-then-build hands its build step to [build-then-break](https://github.com/jiffi-co/build-then-break), so they are better together. Paste this into Claude Code:
 
 ```text
 Please install two Claude Code skills from these public repos:
-https://github.com/jake-jiffi/show-then-build
-https://github.com/jake-jiffi/build-then-break
+https://github.com/jiffi-co/show-then-build
+https://github.com/jiffi-co/build-then-break
 
 Install both at the user level so they work in every project, and set them up so you always use them:
 
@@ -33,7 +33,7 @@ Install both at the user level so they work in every project, and set them up so
 
 ```text
 Please install the show-then-build skill for Claude Code from this public repo:
-https://github.com/jake-jiffi/show-then-build
+https://github.com/jiffi-co/show-then-build
 
 Install it at the user level so it works in every project, and set it up so you always use it:
 
@@ -54,7 +54,7 @@ Install it at the user level so it works in every project, and set it up so you 
 Mac or Linux, in a terminal:
 
 ```sh
-git clone --depth 1 https://github.com/jake-jiffi/show-then-build /tmp/show-then-build
+git clone --depth 1 https://github.com/jiffi-co/show-then-build /tmp/show-then-build
 mkdir -p ~/.claude/skills
 cp -R /tmp/show-then-build/skills/show-then-build ~/.claude/skills/
 rm -rf /tmp/show-then-build
@@ -63,7 +63,7 @@ rm -rf /tmp/show-then-build
 Windows, in PowerShell:
 
 ```powershell
-git clone --depth 1 https://github.com/jake-jiffi/show-then-build "$env:TEMP\show-then-build"
+git clone --depth 1 https://github.com/jiffi-co/show-then-build "$env:TEMP\show-then-build"
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
 Copy-Item -Recurse -Force "$env:TEMP\show-then-build\skills\show-then-build" "$env:USERPROFILE\.claude\skills\"
 Remove-Item -Recurse -Force "$env:TEMP\show-then-build"
