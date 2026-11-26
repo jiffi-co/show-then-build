@@ -5,7 +5,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-0f063c"></a>
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/works%20with-Claude%20Code-599cff">
-  <a href="https://github.com/jake-jiffi/build-then-break"><img alt="Pairs with build-then-break" src="https://img.shields.io/badge/pairs%20with-build--then--break-d5e6ff"></a>
+  <a href="https://github.com/jiffi-co/build-then-break"><img alt="Pairs with build-then-break" src="https://img.shields.io/badge/pairs%20with-build--then--break-d5e6ff"></a>
   <a href="https://clarityclub.jiffi.co"><img alt="From Jiffi Clarity Club" src="https://img.shields.io/badge/from-Jiffi%20Clarity%20Club-fff58a"></a>
 </p>
 
@@ -37,12 +37,12 @@ One page, saved in your project, that opens in any browser:
 
 ## Install it in a minute
 
-Open Claude Code and paste this in. It installs this skill and its partner, [build-then-break](https://github.com/jake-jiffi/build-then-break), together.
+Open Claude Code and paste this in. It installs this skill and its partner, [build-then-break](https://github.com/jiffi-co/build-then-break), together.
 
 ```text
 Please install two Claude Code skills from these public repos:
-https://github.com/jake-jiffi/show-then-build
-https://github.com/jake-jiffi/build-then-break
+https://github.com/jiffi-co/show-then-build
+https://github.com/jiffi-co/build-then-break
 
 Install both at the user level so they work in every project, and set them up so you always use them:
 
