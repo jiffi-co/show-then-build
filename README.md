@@ -123,7 +123,7 @@ That's one run of each, not a study. Tell us where it falls over.
 ## Credits
 
 - Based on how the Jiffi team works on changes after the first build.
-- Put together by [Jake Shelley](https://github.com/jake-jiffi) at [Jiffi](https://www.jiffi.co) for [Clarity Club](https://clarityclub.jiffi.co), where we help business people build with AI properly.
+- Put together by Jake Shelley at [Jiffi](https://www.jiffi.co) for [Clarity Club](https://clarityclub.jiffi.co), where we help business people build with AI properly.
 
 ## Licence
 
